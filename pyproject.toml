@@ -1,0 +1,18 @@
+[project]
+name = "llm-cursor"
+version = "0.1.0"
+description = "MVP LLM assistant (CLI + Telegram) for development workflow"
+authors = [{ name = "LLM Cursor Bot" }]
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.0.0",
+    "pytest>=8.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv]
+package = true
+
