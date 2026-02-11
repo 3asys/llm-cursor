@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: llm-cursor
+Version: 0.1.0
+Summary: MVP LLM assistant (CLI + Telegram) for development workflow
+Author: LLM Cursor Bot
+Requires-Python: >=3.11
+Requires-Dist: openai>=1.0.0
+Requires-Dist: pytest>=8.0.0
